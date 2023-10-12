@@ -1,0 +1,24 @@
+/** @format */
+
+.container-blog-detail {
+  width: 1000px;
+  margin: 50px auto;
+  background-color: transparent;
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1511300636408-a63a89df3482?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80);
+}
+
+.item-container-card {
+  display: flex;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-blog-detail {
+    width: 400px;
+  }
+  .item-container-card {
+    flex-direction: column;
+  }
+}

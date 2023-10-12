@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href="./images/logo.png">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid me-auto mb-lg-0">
+            <a class="navbar-brand me-4" href="./blogdetail.html">
+                <img src="./images/logo1 p.png" alt="logo1" style="height: 4rem;">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-2">
+                      <a class="nav-link"  href="./addblog.html">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                      <a class="nav-link active fw-bold"  href="/assets/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item me-2">
+                      <a class="nav-link" href="/assets/testimoni.html">Testimonial</a>
+                    </li>
+                  </ul>
+                  <div class="d-flex">
+                    <a class="btn btn-secondary" href="/assets/contact.html">Contact</a>
+                  </div>
+
+              </div>
+        </div>
+    </nav>
+    <!--blog-->
+    <div class="blog px-3 py-1">
+        <div>
+            <a class="btn btn-dark" href="./addblog.html"> Add Blog</a>
+        </div>
+    <div class="blog-list" id="contents">
+        <!-- dynamic content would be here -->
+        <div class="blog-list-item">
+          <div class="blog-image px-5 py-3 position-relative">
+            <img src="./images/Sejarah-PDIP.jpg" alt="" />
+          </div>
+          <div class="blog-content">
+            <div class="btn-group">
+              <button class="btn-edit">Edit Post</button>
+              <button class="btn-post">Post Blog</button>
+            </div>
+            <h1 >
+              <a class="text-decoration-none" href="blog-detail.html" target="_blank">
+                Deretan Menteri Terjerat Kasus Korupsi, Terbanyak di Era Jokowi?</a>
+            </h1>
+            <div class="detail-blog-content">
+              12 Jul 2021 22:30 WIB | A Putra Ridwan Susilo
+            </div>
+            <p>
+                 Menteri Pertanian Syahrul Yasin Limpo disebut telah ditetapkan sebagai tersangka kasus korupsi oleh Komisi Pemberantasan Korupsi (KPK). 
+                 Menteri Koordinator Bidang Politik, Hukum, dan Keamanan (Menko Polhukam) Mahfud MD mengaku sudah mendapatkan informasi itu dari KPK sejak lama.
+                "Ya, saya sudah dapat informasinya. Malah kalau eksposenya, itu sudah tahu lama tersangkanya," kata Mahfud di Istana Kepresidenan, Jakarta, Rabu (4/10) seperti melansir dari Antara.
+                 Jika Syahrul resmi ditetapkan sebagai tersangka korupsi, ini berarti sudah enam menteri di era pemerintahan Presiden Joko Widodo (Jokowi) yang tersandung kasus serupa. 
+                 Dirinya mengikuti jejak Idrus Marham, Imam Nahrawi, Edhy Prabowo, Juliari Batubara, dan Johnny G. Plate yang terlebih dulu terjerat kasus korupsi selama era Jokowi.
+                 Syahrul pun akan menjadi menteri kedua era Jokowi asal Partai NasDem setelah Johnny yang tersandung korupsi. 
+                 Sementara, empat menteri lainnya berasal dari partai yang berbeda-beda, yakni Golkar, PKB, Gerindra, dan PDIP.
+            </p>
+
+            <div style="float:right; margin: 10px">
+              <p style="font-size: 15px; color:grey">1 minutes ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>
